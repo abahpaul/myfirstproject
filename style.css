@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 0px; */
+}
+
+
+/* class selector */
+
+.main{
+    width: 80%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240,);
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    padding: 30px;
+    background-color: rgba(240, 240, 240);
+}
+
+/* ELement Selector */
+.head hr{
+    border-style: double;
+    border-width: 14px;
+    width: 100%;
+    border-color: rgb(52, 52, 52);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Id selector */
+
+#last{
+    margin-left: 150px;
+
+
+}
+#first{
+    margin-left: 60px;
+}
